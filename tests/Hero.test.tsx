@@ -1,6 +1,6 @@
 import { screen, render } from "@testing-library/react";
 
-import Hero from "../src/pages/hero/hero";
+import Hero from "../src/pages/hero";
 
 describe("Hero", () => {
   it("Should render the navbar component", () => {

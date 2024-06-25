@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.font-AzeretMono {
+  font-family: "AzeretMono", sans-serif;
+}
+
+.font-AzeretMonoItalic {
+  font-family: "AzeretMonoItalic", sans-serif;
+}
+
+.background-colour {
+  background-color: rgb(247,247,247);
+}
