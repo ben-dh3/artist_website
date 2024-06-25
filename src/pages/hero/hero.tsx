@@ -1,5 +1,5 @@
-import Navbar from "../components/Navbar"
-import HeroImage from "../assets/hero-image.webp"
+import Navbar from "../../components/Navbar"
+import HeroImage from "../../assets/hero-image.webp"
 import "./hero.scss";
 
 export default function Hero() {
