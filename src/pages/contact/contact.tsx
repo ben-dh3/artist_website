@@ -2,7 +2,7 @@ import "./contact.scss";
 
 export default function Contact() {
     return(
-        <div>
+        <div id="contact">
             <form name="contact" method="POST">
                 <input type="hidden" name="form-name" value="contact" />
                 <div>

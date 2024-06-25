@@ -1,4 +1,5 @@
 import "./App.scss";
+import "./fonts.css"
 import About from "./pages/about/about";
 import Contact from "./pages/contact/contact";
 import Hero from "./pages/hero/hero";

@@ -2,7 +2,7 @@ import "./about.scss";
 
 export default function About() {
     return(
-        <div>
+        <div id="about">
             <h1>ABOUT ARTIST</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
