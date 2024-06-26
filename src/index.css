@@ -17,3 +17,25 @@ html {
 .background-colour {
   background-color: rgb(247,247,247);
 }
+
+.item {
+  min-height: 40rem;
+  min-width: 30rem;
+  padding: 40px;
+}
+
+.item img {
+  width: auto;
+  height: 500px;
+  pointer-events: none;
+}
+
+.inner-carousel {
+  display: flex;
+}
+
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+  background: black;
+}
