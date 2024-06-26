@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
-import { ShopItems } from "../components/shopItems";
+import { ShopItems } from "../components/ShopItems";
 
 export default function Shop() {
     const [width, setWidth] = useState(0);

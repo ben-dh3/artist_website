@@ -28,7 +28,7 @@ export default function Contact() {
                             </label>
                         </div>
                     </div>
-                    <div className="hover:bg-blue-800 text-white text-2xl p-2 bg-blue-600 rounded-3xl mt-10 grid">
+                    <div className="background-colour text-colour text-white text-2xl p-2 rounded-3xl mt-10 grid">
                         <button type="submit">Send</button>
                     </div>
                     
