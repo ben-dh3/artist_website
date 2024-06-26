@@ -18,6 +18,10 @@ html {
   background-color: rgb(247,247,247);
 }
 
+.text-colour {
+  color: rgb(11, 200, 99);
+}
+
 .item {
   min-height: 40rem;
   min-width: 30rem;
@@ -37,5 +41,4 @@ html {
 .carousel {
   cursor: grab;
   overflow: hidden;
-  background: black;
 }

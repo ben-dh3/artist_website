@@ -22,7 +22,7 @@ const Navbar = () => {
     return(
         <nav className={classNames(
             scrollPosition > 0 ? 'shadow-lg p-1' : 'shadow-none p-4',
-            'background-colour fixed top-0 left-0 w-full transition-all',
+            'text-colour background-colour fixed top-0 left-0 w-full transition-all',
         )}>
             <div className='flex flex-row items-center justify-between'>
                 <div className=''>
