@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import droolinghomer from "../assets/droolingHomer.gif";
 import { useScrollPosition } from '../hooks/useScrollPosition';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Navbar = () => {
     // State to manage the visibility of the mobile menu
@@ -34,9 +36,9 @@ const Navbar = () => {
                     <a href="#contact">Contact</a>
                 </div>
 
-                <div className=''>
+                <div className='hidden lg:flex'>
                     <a href="#">
-                        <img src={droolinghomer} className="h-20 w-auto" alt="Drooling Homer" />
+                        <FontAwesomeIcon icon={faInstagram} />
                     </a>
                 </div>
 
@@ -55,6 +57,9 @@ const Navbar = () => {
                 <a href="#about">About Artist</a>
                 <a href="#shop">Shop</a>
                 <a href="#contact">Contact</a>
+                <a href="#">
+                    <FontAwesomeIcon icon={faInstagram} />
+                </a>
             </div>
         </nav>
     )
