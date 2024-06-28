@@ -22,7 +22,7 @@ export default function Shop() {
                     {ShopItems.map((item, index) => {
                         return(
                             <motion.div className="item" key={index}>
-                                <img src={item.image} alt="" />
+                                <img src={item.image} alt={item.title} />
                                 {item.button}
                             </motion.div>
                         )
