@@ -2,6 +2,7 @@ import { useState } from 'react';
 import droolinghomer from "../assets/droolingHomer.gif";
 import { useScrollPosition } from '../hooks/useScrollPosition';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -58,10 +59,15 @@ const Navbar = () => {
 
                 {/* Mobile menu button */}
                 <div className="lg:hidden flex items-center">
-                    <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="text-black focus:outline-none">
-                        <svg className="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path fillRule="evenodd" d="M4 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 5h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 5h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
-                        </svg>
+                    <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="text-black">
+                        {isMobileMenuOpen ? (
+                            <FontAwesomeIcon icon={faXmark} />
+                        ) : (
+                            <svg className="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path fillRule="evenodd" d="M4 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 5h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 5h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+                            </svg>
+                        )}
+                        
                     </button>
                 </div>
             </div>
