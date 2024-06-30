@@ -18,8 +18,9 @@ html {
   background-color: rgb(247,247,247);
 }
 
-.marquee-colour {
-  background-color: rgb(215,215,215);
+.hero_image_size {
+  width: auto;
+  height: 600px;
 }
 
 .text-colour {
@@ -71,4 +72,8 @@ html {
 
 .marquee2 {
   animation: marquee2 25s linear infinite;
+}
+
+.marquee-colour {
+  background-color: rgb(215,215,215);
 }

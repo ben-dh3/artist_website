@@ -38,7 +38,7 @@ const Navbar = () => {
         <nav className={classNames(
             isMobileMenuOpen ? "drop-shadow-lg pb-80" : "pb-0",
             scrollPosition > 0 ? 'shadow-lg p-1' : 'shadow-none p-4',
-            'sm:pb-0 sm:drop-shadow-none text-colour background-colour fixed top-0 left-0 w-full transition-all duration-300',
+            'z-10 sm:pb-0 sm:drop-shadow-none text-colour background-colour fixed top-0 left-0 w-full transition-all duration-300',
         )}>
             <div className='flex flex-row items-center justify-between'>
                 <div>
