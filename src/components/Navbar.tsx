@@ -46,9 +46,9 @@ const Navbar = () => {
                         <img src={droolinghomer} className="h-20 w-auto" alt="logo" />
                     </a>
                 </div>
-                <div className='hidden lg:flex space-x-20 place-self-center'>
+                <div className='hidden lg:flex space-x-20 place-self-center items-center'>
                     <a href="#about">About Artist</a>
-                    <a href="#shop">Shop</a>
+                    <a href="#shop" className='p-4 rounded-3xl bg-yellow-200'>Shop</a>
                     <a href="#contact">Contact</a>
                 </div>
                 <div className='hidden lg:flex'>
