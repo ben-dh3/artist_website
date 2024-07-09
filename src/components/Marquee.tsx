@@ -1,6 +1,6 @@
 const Marquee = ({ message }: { message: string }) => {
     return (
-        <div className="marquee-colour overflow-x-hidden fixed bottom-0">
+        <div className="font-AzeretMonoItalic marquee-colour overflow-x-hidden fixed bottom-0">
             <div className="p-2 marquee whitespace-nowrap ">
                 <span className="mx-4">{message}</span>
                 <span className="mx-4">{message}</span>

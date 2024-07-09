@@ -79,11 +79,11 @@ html {
 }
 
 .marquee {
-  animation: marquee 60s linear infinite;
+  animation: marquee 90s linear infinite;
 }
 
 .marquee2 {
-  animation: marquee2 60s linear infinite;
+  animation: marquee2 90s linear infinite;
 }
 
 .marquee-colour {

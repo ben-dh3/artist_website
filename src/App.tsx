@@ -12,7 +12,7 @@ function App() {
       <About />
       <Shop />
       <Contact />
-      <Marquee message="Email benjaminduffield1997@gmail.com" />
+      <Marquee message="Commissions + Collaborations -> benjaminduffield1997@gmail.com" />
     </div>
   );
 }
