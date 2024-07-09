@@ -15,12 +15,24 @@ html {
 }
 
 .background-colour {
-  background-color: rgb(11, 200, 99);
+  background-color: rgb(238, 245, 140);
 }
 
 .hero_image_size {
   width: auto;
-  height: 600px;
+  height: 700px;
+}
+
+@media (max-width:767px) {
+  .hero_image_size {
+    width: auto;
+    height: 300px;
+  }
+}
+
+.hello_image_size {
+  width: auto;
+  height: 100px;
 }
 
 .text-colour {
@@ -67,11 +79,11 @@ html {
 }
 
 .marquee {
-  animation: marquee 25s linear infinite;
+  animation: marquee 60s linear infinite;
 }
 
 .marquee2 {
-  animation: marquee2 25s linear infinite;
+  animation: marquee2 60s linear infinite;
 }
 
 .marquee-colour {
