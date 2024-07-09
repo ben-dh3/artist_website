@@ -30,8 +30,7 @@ export default function Contact() {
                     </div>
                     <div className="bg-green-300 text-colour text-white text-2xl p-2 rounded-3xl mt-10 grid">
                         <button type="submit">Send</button>
-                    </div>
-                    
+                    </div> 
                 </form>
         </div>
     )
