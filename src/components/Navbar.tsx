@@ -52,7 +52,7 @@ const Navbar = () => {
                     <a href="#contact">Contact</a>
                 </div>
                 <div className='hidden lg:flex'>
-                    <a href="https://www.instagram.com/benjamin.duffield/" target='_blank'>
+                    <a href="https://www.instagram.com/__artbyben/" target='_blank'>
                         <FontAwesomeIcon icon={faInstagram} />
                     </a>
                 </div>
