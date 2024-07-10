@@ -85,7 +85,7 @@ const Navbar = () => {
                         <a href="#about">About Artist</a>
                         <a href="#shop">Shop</a>
                         <a href="#contact">Contact</a>
-                        <a href="#">
+                        <a href="https://www.instagram.com/__artbyben/" target='_blank'>
                             <FontAwesomeIcon icon={faInstagram} />
                         </a>
                     </div>
