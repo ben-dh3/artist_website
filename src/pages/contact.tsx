@@ -3,7 +3,7 @@ export default function Contact() {
     return(
         <div id="contact" className="my-20 space-y-10 flex flex-col max-w-2xl rounded-lg backdrop-blur bg-white border border-gray-200 shadow p-4">
             <div className="text-center text-5xl text-colour font-AzeretMonoItalic">Contact</div>
-                <form name="contact" method="POST">
+                <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="form-name" value="contact" />
                     <div className="mb-6">
                         <label htmlFor="name" className="block text-sm font-medium">Name</label>
