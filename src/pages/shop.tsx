@@ -4,10 +4,12 @@ import { ShopItems } from "../components/ShopItems";
 
 export default function Shop() {
     const [width, setWidth] = useState(0);
-    const carousel = useRef();
+    const carousel = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
-        setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
+        if (carousel.current) {
+            setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
+        }
     }, []);
 
     return(
