@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import droolinghomer from "../assets/droolingHomer.gif";
+import droolinghomer from "../assets/droolingHomer.webp";
 import { useScrollPosition } from '../hooks/useScrollPosition';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';

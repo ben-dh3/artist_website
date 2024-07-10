@@ -1,4 +1,4 @@
-import BeachImage from '../assets/beach-watercolour.webp';
+import BeachImage from '../assets/beachWatercolour.webp';
 
 export const ShopItems = [
     {

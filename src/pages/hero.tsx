@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar"
-import HeroImage from "../assets/hero_image.gif"
+import HeroImage from "../assets/heroImage.webp"
 
 export default function Hero() {
     return(
