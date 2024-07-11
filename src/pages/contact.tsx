@@ -71,7 +71,7 @@ export default function Contact() {
             </label>
           </div>
         </div>
-        <div className="bg-green-100 text-colour text-white text-2xl p-2 rounded-3xl mt-10 grid">
+        <div className="bg-white text-blue-600 border border-blue-600 text-2xl p-2 rounded-3xl mt-10 grid">
           <button type="submit" aria-label="submit contact form">Send</button>
         </div>
       </form>
