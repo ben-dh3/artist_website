@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import droolinghomer from "../assets/droolingHomer.webp";
+import droolinghomer from "../../public/droolingHomer.webp";
 import { useScrollPosition } from '../hooks/useScrollPosition';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
@@ -48,7 +48,7 @@ const Navbar = () => {
                 </div>
                 <div className='hidden lg:flex space-x-20 place-self-center items-center'>
                     <a href="#about">About Artist</a>
-                    <a href="#shop" className='p-4 rounded-3xl bg-green-300'>Shop</a>
+                    <a href="#shop" className='p-1 rounded-3xl bg-green-100'>Shop</a>
                     <a href="#contact">Contact</a>
                 </div>
                 <div className='hidden lg:flex'>

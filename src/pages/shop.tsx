@@ -13,8 +13,8 @@ export default function Shop() {
     }, []);
 
     return(
-        <div id="shop" className="space-y-40 bg-black mt-20 w-full">
-            <h1 className="mt-10 text-center text-5xl text-colour font-AzeretMonoItalic">Shop</h1>
+        <div id="shop" className="flex flex-col space-y-40 bg-black mt-20 w-full">
+            <h1 className="mx-auto p-1 rounded-3xl bg-green-100 mt-10 text-center text-5xl text-colour font-AzeretMonoItalic">Shop</h1>
             <motion.div ref={carousel} className="carousel flex justify-center" whileTap={{cursor: "grabbing"}}>
                 <motion.div 
                     drag="x" 
