@@ -7,7 +7,7 @@ export default function Hero() {
             <Navbar />
             <div className="flex flex-col items-center">
                 <div className="text-colour text-5xl font-AzeretMonoItalic">ART BY</div>
-                <img className="z-0 drop-shadow-lg hero_image_size" src={HeroImage} alt="Hero Image" />
+                <img className="z-0 drop-shadow-lg w-full md:h-96 h-58" src={HeroImage} alt="Hero Image" />
             </div>
             
         </div>

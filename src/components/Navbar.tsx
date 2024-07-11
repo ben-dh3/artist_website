@@ -51,15 +51,15 @@ const Navbar = () => {
                     <a href="#shop" className='p-1 rounded-3xl bg-green-100'>Shop</a>
                     <a href="#contact">Contact</a>
                 </div>
-                <div className='hidden lg:flex'>
-                    <a href="https://www.instagram.com/__artbyben/" target='_blank'>
+                <div className='hidden lg:flex mr-20'>
+                    <a href="https://www.instagram.com/__artbyben/" target='_blank' aria-label="Instagram Link">
                         <FontAwesomeIcon icon={faInstagram} />
                     </a>
                 </div>
 
                 {/* Mobile menu button */}
                 <div className="lg:hidden flex items-center">
-                    <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="text-black">
+                    <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="text-black" aria-label="Toggle Mobile Navigation">
                         {isMobileMenuOpen ? (
                             <FontAwesomeIcon icon={faXmark} />
                         ) : (
@@ -85,7 +85,7 @@ const Navbar = () => {
                         <a href="#about">About Artist</a>
                         <a href="#shop">Shop</a>
                         <a href="#contact">Contact</a>
-                        <a href="https://www.instagram.com/__artbyben/" target='_blank'>
+                        <a href="https://www.instagram.com/__artbyben/" target='_blank' aria-label="Instagram Link">
                             <FontAwesomeIcon icon={faInstagram} />
                         </a>
                     </div>

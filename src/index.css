@@ -18,25 +18,13 @@ html {
   background-color: rgb(233, 217, 211);
 }
 
-.hero_image_size {
-  width: auto;
-  height: 700px;
-}
-
-@media (max-width:767px) {
-  .hero_image_size {
-    width: auto;
-    height: 300px;
-  }
-}
-
 .hello_image_size {
   width: auto;
   height: 100px;
 }
 
 .text-colour {
-  color: rgb(209, 0, 113);
+  color: rgb(189, 0, 101);
 }
 
 .item {
