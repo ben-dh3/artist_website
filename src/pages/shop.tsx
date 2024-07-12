@@ -18,7 +18,7 @@ export default function Shop() {
             <motion.div ref={carousel} className="carousel flex justify-center" whileTap={{cursor: "grabbing"}}>
                 <motion.div 
                     drag="x" 
-                    dragConstraints={{ right:0, left: -width}}
+                    dragConstraints={{ right:300, left: -width}}
                     className="inner-carousel"
                 >
                     {ShopItems.map((item, index) => {
