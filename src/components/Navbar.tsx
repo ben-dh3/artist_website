@@ -47,7 +47,6 @@ const Navbar = () => {
                     </a>
                 </div>
                 <div className='hidden lg:flex space-x-20 place-self-center items-center'>
-                    <a href="#about">About Artist</a>
                     <a href="#shop" className='p-1 rounded-3xl bg-green-100'>Shop</a>
                     <a href="#contact">Contact</a>
                 </div>
@@ -82,7 +81,6 @@ const Navbar = () => {
                 variants={mobileMenuContainer} 
                 >
                     <div className='fixed inset-x-0 mx-auto self-center text-2xl space-y-10 mt-10 flex flex-col text-center lg:hidden'>
-                        <a href="#about">About Artist</a>
                         <a href="#shop">Shop</a>
                         <a href="#contact">Contact</a>
                         <a href="https://www.instagram.com/__artbyben/" target='_blank' aria-label="Instagram Link">
